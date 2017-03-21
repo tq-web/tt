@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>a标签的使用</title>
+		<style>
+			a{
+				display: block;
+			}
+			#box{
+				width:500px;
+				height: 500px;
+				background: darkcyan;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="http://www.baidu.com" target="_self">在自身窗口打开百度</a>
+		<a href="http://www.baidu.com" target="_blank">在新窗口打开百度</a>
+		<a href="http://www.baidu.com" target="_top">在新窗口打开百度</a>
+		<a href="http://www.baidu.com" target="_parent">在父窗口打开百度</a>
+		<a href="index.html" >回到主页</a>
+		<hr />
+		<!--锚点连接-->
+		<a name="first" style="width: 400px; height: 400px; background: red;">1楼</a>
+		<div id="box"></div>
+		<a name="sec" style="width: 400px; height: 400px; background: green;">2楼</a>
+		<a name="thr" style="width: 400px; height: 400px; background: blue;">3楼</a>
+		
+		<a href="#first">
+			回到1楼
+		</a>
+		<a href="#sec">回到2楼</a>
+		<!--跳转邮箱-->
+		<a href="https://mail.qq.com/">跳转到QQ邮箱</a>
+		
+		<a href="mailto:lijf_web@163.com">链接到微软邮箱</a>
+	</body>
+</html>
